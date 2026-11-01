@@ -161,20 +161,42 @@ A Methods paragraph for the worked example, ready to adapt: replace the species,
 
 > Relative synonymous codon usage (RSCU; Sharp et al. 1986; Sharp & Li 1987) was calculated for *Lycosa shansia* (GenBank OK032619; Ye et al. 2022) with rscu_single_specimen v1.0.1 (Patrick 2026; https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen). Codons from the 13 protein-coding genes were pooled and classified under the invertebrate mitochondrial code (NCBI table 5; Osawa et al. 1992). Stop codons, including incomplete stops completed by polyadenylation (Ojala et al. 1981), were excluded. Leu and Ser were each split into two families by codon box (Leu1 CTN, Leu2 TTR; Ser1 TCN, Ser2 AGN), and RSCU was calculated within each of the 22 resulting families.
 
-To cite the program: Patrick LB. 2026. rscu_single_specimen, version 1.0.1. https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
-
 ## Documentation
 
 - [`docs/README_rscu_single_specimen_v1_0_1_2026_11_01.txt`](docs/README_rscu_single_specimen_v1_0_1_2026_11_01.txt): full reference, including run environments, caveats, method detail, output descriptions, the worked example, and references with DOIs.
 - [`docs/RSCU_Methods_example_Lycosa_shansia.docx`](docs/RSCU_Methods_example_Lycosa_shansia.docx): the example Methods paragraph with references, as a Word file.
 - [`CHANGELOG.md`](CHANGELOG.md): changes between versions.
+- [`CITATION.cff`](CITATION.cff): citation information (powers GitHub's “Cite this repository” button).
+
+## How to cite this
+
+If you use this program, please cite it with the version you ran (printed at the start of each run and stamped into every output file name):
+
+> Patrick LB. 2026. rscu_single_specimen, version 1.0.1. https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
+
+BibTeX:
+
+```bibtex
+@software{patrick_2026_rscu_single_specimen,
+  author  = {Patrick, L. Brian},
+  title   = {rscu\_single\_specimen},
+  version = {1.0.1},
+  year    = {2026},
+  url     = {https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen}
+}
+```
+
+GitHub's **Cite this repository** button (in the right-hand panel of the repository page) gives the same citation in APA and BibTeX formats, from `CITATION.cff`.
+
+Please also cite the RSCU method (Sharp et al. 1986; Sharp & Li 1987), the genetic code (Osawa et al. 1992) and the Python libraries the program uses: NumPy (Harris et al. 2020), pandas (McKinney 2010) and Matplotlib (Hunter 2007); see References below. A ready-made Methods paragraph with these citations is in `docs/RSCU_Methods_example_Lycosa_shansia.docx`.
 
 ## References
 
-- Ojala D, Montoya J, Attardi G. 1981. tRNA punctuation model of RNA processing in human mitochondria. *Nature* 290:470–474. [doi:10.1038/290470a0](https://doi.org/10.1038/290470a0)
-- Osawa S, Jukes TH, Watanabe K, Muto A. 1992. Recent evidence for evolution of the genetic code. *Microbiological Reviews* 56:229–264. [doi:10.1128/mr.56.1.229-264.1992](https://doi.org/10.1128/mr.56.1.229-264.1992)
-- Sharp PM, Li W-H. 1987. The codon adaptation index — a measure of directional synonymous codon usage bias, and its potential applications. *Nucleic Acids Research* 15:1281–1295. [doi:10.1093/nar/15.3.1281](https://doi.org/10.1093/nar/15.3.1281)
-- Sharp PM, Tuohy TMF, Mosurski KR. 1986. Codon usage in yeast: cluster analysis clearly differentiates highly and lowly expressed genes. *Nucleic Acids Research* 14:5125–5143. [doi:10.1093/nar/14.13.5125](https://doi.org/10.1093/nar/14.13.5125)
-- Ye W, Wang J, Zhao X, Liu H, Zhu S. 2022. Mitochondrial genomes of two *Lycosa* spiders (Araneae, Lycosidae): genome description and phylogenetic implications. *Diversity* 14:538. [doi:10.3390/d14070538](https://doi.org/10.3390/d14070538) (example data, GenBank OK032619)
-
-Software: NumPy (Harris et al. 2020), pandas (McKinney 2010), Matplotlib (Hunter 2007); full citations are in the documentation.
+1. Harris CR, Millman KJ, van der Walt SJ, Gommers R, Virtanen P, Cournapeau D, Wieser E, Taylor J, Berg S, Smith NJ, Kern R, Picus M, Hoyer S, van Kerkwijk MH, Brett M, Haldane A, Fernández del Río J, Wiebe M, Peterson P, Gérard-Marchant P, Sheppard K, Reddy T, Weckesser W, Abbasi H, Gohlke C, Oliphant TE. 2020. Array programming with NumPy. *Nature* 585(7825): 357–362. [doi:10.1038/s41586-020-2649-2](https://doi.org/10.1038/s41586-020-2649-2)
+2. Hunter JD. 2007. Matplotlib: a 2D graphics environment. *Computing in Science & Engineering* 9(3): 90–95. [doi:10.1109/MCSE.2007.55](https://doi.org/10.1109/MCSE.2007.55)
+3. McKinney W. 2010. Data structures for statistical computing in Python. In: van der Walt S, Millman J, editors. *Proceedings of the 9th Python in Science Conference*. p. 56–61. [doi:10.25080/Majora-92bf1922-00a](https://doi.org/10.25080/Majora-92bf1922-00a)
+4. Ojala D, Montoya J, Attardi G. 1981. tRNA punctuation model of RNA processing in human mitochondria. *Nature* 290(5806): 470–474. [doi:10.1038/290470a0](https://doi.org/10.1038/290470a0)
+5. Osawa S, Jukes TH, Watanabe K, Muto A. 1992. Recent evidence for evolution of the genetic code. *Microbiological Reviews* 56(1): 229–264. [doi:10.1128/mr.56.1.229-264.1992](https://doi.org/10.1128/mr.56.1.229-264.1992)
+6. Sharp PM, Li W-H. 1987. The codon adaptation index — a measure of directional synonymous codon usage bias, and its potential applications. *Nucleic Acids Research* 15(3): 1281–1295. [doi:10.1093/nar/15.3.1281](https://doi.org/10.1093/nar/15.3.1281)
+7. Sharp PM, Tuohy TMF, Mosurski KR. 1986. Codon usage in yeast: cluster analysis clearly differentiates highly and lowly expressed genes. *Nucleic Acids Research* 14(13): 5125–5143. [doi:10.1093/nar/14.13.5125](https://doi.org/10.1093/nar/14.13.5125)
+8. Ye W, Wang J, Zhao X, Liu H, Zhu S. 2022. Mitochondrial genomes of two *Lycosa* spiders (Araneae, Lycosidae): genome description and phylogenetic implications. *Diversity* 14(7): 538. [doi:10.3390/d14070538](https://doi.org/10.3390/d14070538) (example data, GenBank OK032619)

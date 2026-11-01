@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this program, please cite it as below, giving the version you ran."
+title: "rscu_single_specimen"
+abstract: "Relative synonymous codon usage (RSCU) values and a stacked-bar RSCU graph for one specimen at a time, from that specimen's mitochondrial protein-coding genes, under NCBI Genetic Code 5 (invertebrate mitochondrial)."
+type: software
+authors:
+  - family-names: "Patrick"
+    given-names: "L. Brian"
+    affiliation: "Department of Biological Sciences, Dakota Wesleyan University, Mitchell, SD, USA"
+version: "1.0.1"
+date-released: "2026-11-01"
+repository-code: "https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen"
+url: "https://brpatric.github.io/relative-synonymous-codon-usage-by-specimen/"
+keywords:
+  - relative synonymous codon usage
+  - RSCU
+  - codon usage
+  - mitogenome
+  - mitochondrial genome
+  - invertebrate mitochondrial genetic code
