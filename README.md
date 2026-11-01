@@ -155,9 +155,18 @@ Every gene has one stop codon and no internal stops. ND4 and ND4L end in truncat
 
 RSCU values are rounded to two decimals here; the CSV gives four. The family totals sum to the 3,590 sense codons, and within each family the RSCU values sum to the number of codons in that family (allowing for rounding).
 
+## Example Methods text
+
+A Methods paragraph for the worked example, ready to adapt: replace the species, accession and source citation with your own. A Word copy with the full references is in [`docs/RSCU_Methods_example_Lycosa_shansia.docx`](docs/RSCU_Methods_example_Lycosa_shansia.docx).
+
+> Relative synonymous codon usage (RSCU; Sharp et al. 1986; Sharp & Li 1987) was calculated for *Lycosa shansia* (GenBank OK032619; Ye et al. 2022) with rscu_single_specimen v1.0.1 (Patrick 2026; https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen). Codons from the 13 protein-coding genes were pooled and classified under the invertebrate mitochondrial code (NCBI table 5; Osawa et al. 1992). Stop codons, including incomplete stops completed by polyadenylation (Ojala et al. 1981), were excluded. Leu and Ser were each split into two families by codon box (Leu1 CTN, Leu2 TTR; Ser1 TCN, Ser2 AGN), and RSCU was calculated within each of the 22 resulting families.
+
+To cite the program: Patrick LB. 2026. rscu_single_specimen, version 1.0.1. https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
+
 ## Documentation
 
 - [`docs/README_rscu_single_specimen_v1_0_1_2026_11_01.txt`](docs/README_rscu_single_specimen_v1_0_1_2026_11_01.txt): full reference, including run environments, caveats, method detail, output descriptions, the worked example, and references with DOIs.
+- [`docs/RSCU_Methods_example_Lycosa_shansia.docx`](docs/RSCU_Methods_example_Lycosa_shansia.docx): the example Methods paragraph with references, as a Word file.
 - [`CHANGELOG.md`](CHANGELOG.md): changes between versions.
 
 ## References

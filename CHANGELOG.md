@@ -7,6 +7,7 @@
 - Removed the unverified claim that results are byte-for-byte identical to the batch engine `rscu_integrated`.
 - Documentation: corrected the RSCU sanity check in the worked example (each family's RSCU values sum to its number of synonymous codons); described chart stacking order, tie ranking, and unused codons in the codon key.
 - Worked example: the 13 protein-coding genes of *Lycosa shansia* (GenBank OK032619; Ye et al. 2022) added in `example/`, with the output files from running the program on them.
+- Example Methods paragraph for the worked example, on the front page and as `docs/RSCU_Methods_example_Lycosa_shansia.docx`.
 - RSCU values are unchanged from 1.0.0.
 
 ## 1.0.0 (August 2026)
