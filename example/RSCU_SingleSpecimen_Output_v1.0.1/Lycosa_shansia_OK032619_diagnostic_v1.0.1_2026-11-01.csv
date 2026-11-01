@@ -1,0 +1,14 @@
+Gene,Length_bp,Sense_Codons,Stop_Codons,Internal_Stops,Ambiguous,Truncated_Stop,Partial
+COX1,1539,512,1,0,0,False,False
+COX2,666,221,1,0,0,False,False
+ATP8,156,51,1,0,0,False,False
+ATP6,666,221,1,0,0,False,False
+COX3,786,261,1,0,0,False,False
+ND3,357,118,1,0,0,False,False
+ND5,1641,546,1,0,0,False,False
+ND4,1280,426,1,0,0,True,False
+ND4L,268,89,1,0,0,True,False
+ND6,432,143,1,0,0,False,False
+CytB,1137,378,1,0,0,False,False
+ND1,915,304,1,0,0,False,False
+ND2,963,320,1,0,0,False,False

@@ -1,0 +1,14 @@
+# Changelog
+
+## 1.0.1 (November 2026)
+
+- Internal-stop check: a TAA/TAG before the gene's terminal stop is counted per gene (`Internal_Stops` column in the diagnostic CSV and a total in the summary CSV) and triggers a console warning naming the affected genes.
+- Sharp, Tuohy & Mosurski (1986) cited as the original RSCU reference, alongside Sharp & Li (1987).
+- Removed the unverified claim that results are byte-for-byte identical to the batch engine `rscu_integrated`.
+- Documentation: corrected the RSCU sanity check in the worked example (each family's RSCU values sum to its number of synonymous codons); described chart stacking order, tie ranking, and unused codons in the codon key.
+- Worked example: the 13 protein-coding genes of *Lycosa shansia* (GenBank OK032619; Ye et al. 2022) added in `example/`, with the output files from running the program on them.
+- RSCU values are unchanged from 1.0.0.
+
+## 1.0.0 (August 2026)
+
+- Initial release: single-specimen RSCU under NCBI Genetic Code 5, truncated-stop handling, diagnostic and summary tables, and the stacked-bar RSCU graph.
