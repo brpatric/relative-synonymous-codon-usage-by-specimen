@@ -9,6 +9,7 @@
 - Worked example: the 13 protein-coding genes of *Lycosa shansia* (GenBank OK032619; Ye et al. 2022) added in `example/`, with the output files from running the program on them.
 - Example Methods paragraph for the worked example, on the front page and as `docs/RSCU_Methods_example_Lycosa_shansia.docx`.
 - "How to cite this" section and `CITATION.cff` (GitHub's "Cite this repository" button).
+- Archived on Zenodo with DOI [10.5281/zenodo.24182022](https://doi.org/10.5281/zenodo.24182022); DOI added to the README, citation and `CITATION.cff`.
 - RSCU values are unchanged from 1.0.0.
 
 ## 1.0.0 (August 2026)
