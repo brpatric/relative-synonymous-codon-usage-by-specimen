@@ -1,5 +1,13 @@
 # Changelog
 
+## Documentation updates after 1.0.1 (November 2026)
+
+No change to the program's calculations or outputs.
+
+- Full reference README (`docs/`): replaced template placeholders with the author, repository, DOI and citation; removed a citation (Revell 2009) that had no reference entry; removed a pointer to a batch engine that is not part of this repository.
+- Script header: author, repository and DOI added.
+- Example Methods Word file: author and title metadata set.
+
 ## 1.0.1 (November 2026)
 
 - Internal-stop check: a TAA/TAG before the gene's terminal stop is counted per gene (`Internal_Stops` column in the diagnostic CSV and a total in the summary CSV) and triggers a console warning naming the affected genes.

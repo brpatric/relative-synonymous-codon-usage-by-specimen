@@ -7,7 +7,9 @@
 # Created   : 2026-11-01   (this version's creation date; stamped into the
 #                           header, the output folder name, and every output
 #                           filename)
-# Author    : Generated for L. Brian Patrick
+# Author    : L. Brian Patrick (ORCID 0000-0003-1969-9600)
+# Repository: https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
+# DOI       : 10.5281/zenodo.24182022 (Zenodo archive of release v1.0.1)
 # -----------------------------------------------------------------------------
 # CHANGES IN v1.0.1 (2026-11-01)
 #   * NEW internal-stop check: a TAA/TAG anywhere other than the gene's terminal

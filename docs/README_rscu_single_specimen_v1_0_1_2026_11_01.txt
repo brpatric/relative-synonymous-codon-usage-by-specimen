@@ -11,9 +11,13 @@
   Example data : example/Lycosa_shansia_OK032619.fasta   (the 13 protein-coding
                  genes of the published Lycosa shansia mitogenome, GenBank
                  OK032619; Ye et al. 2022; used throughout Section 8)
-  Author       : Generated for L. Brian Patrick
-  License      : (add your license here)
-  Maintainer   : (add your name / contact here)
+  Author       : L. Brian Patrick, Department of Biological Sciences, Dakota
+                 Wesleyan University, Mitchell, SD, USA (ORCID 0000-0003-1969-9600)
+  Repository   : https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
+  Archive/DOI  : Zenodo, doi:10.5281/zenodo.24182022 (release v1.0.1)
+  Citation     : Patrick LB. 2026. rscu_single_specimen, version 1.0.1.
+                 Zenodo. doi:10.5281/zenodo.24182022.
+  License      : none specified in the repository
 
   FILE-NAMING CONVENTION. Every delivered file carries this version and the date
   that version was created. The program and this README use the fully-underscored
@@ -67,7 +71,7 @@
   sample size of one:
 
      * master species x codon matrices                (needs >= 2 specimens)
-     * phylogenetic PCA ordination (Revell 2009)      (needs a tree + >= 3 taxa)
+     * phylogenetic PCA ordination                    (needs a tree + >= 3 taxa)
      * phylogenetically-corrected Ward clustering     (needs a tree + >= 3 taxa)
      * the RSCU heatmap across specimens              (needs >= 2 specimens)
      * the per-family codon-usage tests (Friedman /   (a blocked design across
@@ -241,8 +245,8 @@
        specimen. There is no significance test, ordination, clustering, or
        heatmap here, because all of those compare specimens and are undefined for
        n = 1. RSCU here is a descriptive profile of that specimen's codon usage.
-       To compare several specimens (with a phylogeny, family tests, pPCA and
-       Ward clustering), use the full batch engine rscu_integrated instead.
+       Comparing several specimens (with a phylogeny, family tests, pPCA and
+       Ward clustering) is outside the scope of this tool.
 
   2.5  LOW-COUNT AMINO-ACID FAMILIES. RSCU from a family with only a few codons
        is dominated by sampling noise. Rare amino acids (often Cys, Gln, Trp) may
