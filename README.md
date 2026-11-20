@@ -6,6 +6,10 @@ Relative Synonymous Codon Usage (RSCU) values and a stacked-bar RSCU graph for *
 
 **Version 1.0.1** (November 2026) · Python 3 (NumPy, pandas, Matplotlib)
 
+**Cite as:**
+
+> Patrick LB. 2026. rscu_single_specimen, version 1.0.1. Zenodo. [doi:10.5281/zenodo.24182022](https://doi.org/10.5281/zenodo.24182022). https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
+
 ## What it does
 
 The program reads one FASTA file holding the protein-coding genes of one specimen, pools the genes, counts codons, and computes RSCU for every sense codon (Sharp et al. 1986; Sharp & Li 1987):
