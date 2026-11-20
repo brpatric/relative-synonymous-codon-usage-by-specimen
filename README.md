@@ -6,9 +6,11 @@ Relative Synonymous Codon Usage (RSCU) values and a stacked-bar RSCU graph for *
 
 **Version 1.0.1** (November 2026) · Python 3 (NumPy, pandas, Matplotlib)
 
+**Author:** L. Brian Patrick, Department of Biological Sciences, Dakota Wesleyan University, Mitchell, SD, USA · ORCID [0000-0003-1969-9600](https://orcid.org/0000-0003-1969-9600)
+
 **Cite as:**
 
-> Patrick LB. 2026. rscu_single_specimen, version 1.0.1. Zenodo. [doi:10.5281/zenodo.24182022](https://doi.org/10.5281/zenodo.24182022). https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
+> Patrick, L. B. (2026). *rscu_single_specimen* (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24182022
 
 ## What it does
 
@@ -179,7 +181,7 @@ A Methods paragraph for the worked example, ready to adapt: replace the species,
 
 If you use this program, please cite it with the version you ran (printed at the start of each run and stamped into every output file name):
 
-> Patrick LB. 2026. rscu_single_specimen, version 1.0.1. Zenodo. [doi:10.5281/zenodo.24182022](https://doi.org/10.5281/zenodo.24182022). https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen
+> Patrick, L. B. (2026). *rscu_single_specimen* (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24182022
 
 BibTeX:
 
