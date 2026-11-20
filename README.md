@@ -169,6 +169,7 @@ A Methods paragraph for the worked example, ready to adapt: replace the species,
 - [`docs/RSCU_Methods_example_Lycosa_shansia.docx`](docs/RSCU_Methods_example_Lycosa_shansia.docx): the example Methods paragraph with references, as a Word file.
 - [`CHANGELOG.md`](CHANGELOG.md): changes between versions.
 - [`CITATION.cff`](CITATION.cff): citation information (powers GitHub's “Cite this repository” button).
+- [`LICENSE`](LICENSE): MIT License.
 
 ## How to cite this
 
@@ -204,3 +205,7 @@ Please also cite the RSCU method (Sharp et al. 1986; Sharp & Li 1987), the genet
 6. Sharp PM, Li W-H. 1987. The codon adaptation index — a measure of directional synonymous codon usage bias, and its potential applications. *Nucleic Acids Research* 15(3): 1281–1295. [doi:10.1093/nar/15.3.1281](https://doi.org/10.1093/nar/15.3.1281)
 7. Sharp PM, Tuohy TMF, Mosurski KR. 1986. Codon usage in yeast: cluster analysis clearly differentiates highly and lowly expressed genes. *Nucleic Acids Research* 14(13): 5125–5143. [doi:10.1093/nar/14.13.5125](https://doi.org/10.1093/nar/14.13.5125)
 8. Ye W, Wang J, Zhao X, Liu H, Zhu S. 2022. Mitochondrial genomes of two *Lycosa* spiders (Araneae, Lycosidae): genome description and phylogenetic implications. *Diversity* 14(7): 538. [doi:10.3390/d14070538](https://doi.org/10.3390/d14070538) (example data, GenBank OK032619)
+
+## License
+
+Released under the MIT License; see [`LICENSE`](LICENSE).

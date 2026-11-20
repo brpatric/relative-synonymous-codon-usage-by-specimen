@@ -7,6 +7,7 @@ No change to the program's calculations or outputs.
 - Full reference README (`docs/`): replaced template placeholders with the author, repository, DOI and citation; removed a citation (Revell 2009) that had no reference entry; removed a pointer to a batch engine that is not part of this repository.
 - Script header: author, repository and DOI added.
 - Example Methods Word file: author and title metadata set.
+- Released under the MIT License (`LICENSE`; `license: MIT` added to `CITATION.cff`).
 
 ## 1.0.1 (November 2026)
 

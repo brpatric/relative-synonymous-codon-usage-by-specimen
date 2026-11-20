@@ -15,6 +15,7 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.24182022"
     description: "Zenodo archive of release v1.0.1"
+license: MIT
 repository-code: "https://github.com/brpatric/relative-synonymous-codon-usage-by-specimen"
 url: "https://brpatric.github.io/relative-synonymous-codon-usage-by-specimen/"
 keywords:
