@@ -183,6 +183,8 @@ If you use this program, please cite it with the version you ran (printed at the
 
 > Patrick, L. B. (2026). *rscu_single_specimen* (Version 1.0.1) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24182022
 
+*"[Computer software]" is part of the APA (7th edition) citation format and stays as written. If you used a different release, replace the version number and DOI with those of the release you used (each release has its own DOI on Zenodo). Journals that use another citation style may format software differently.*
+
 BibTeX:
 
 ```bibtex
